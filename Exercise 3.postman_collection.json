@@ -1,0 +1,240 @@
+{
+	"info": {
+		"_postman_id": "abfd42d4-3c1a-4df3-a061-9c160509be49",
+		"name": "Exercise 3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Created Response Success",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"prefix\": \"PT\",\r\n\"name\": \"Sejahtera\",\r\n\"suffix\": \"Tbk\",\r\n\"industry_id\": \"1\",\r\n\"employee_size\": \"500\",\r\n\"street\": \"Jl.Sudirman kav. 21\",\r\n\"place\": \"Sudirman Tower\",\r\n\"geograph_id\": 100,\r\n\"phone\": \"08561290092\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://run.mocky.io/v3/59baf6cf-865f-4c44-956a-dea924739c42",
+					"protocol": "https",
+					"host": [
+						"run",
+						"mocky",
+						"io"
+					],
+					"path": [
+						"v3",
+						"59baf6cf-865f-4c44-956a-dea924739c42"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Created Response Bad Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"prefix\": \"PT\",\r\n\"name\": \"Sejahtera\",\r\n\"suffix\": \"Tbk\",\r\n\"industry_id\": \"1\",\r\n\"employee_size\": \"500\",\r\n\"street\": \"Jl.Sudirman kav. 21\",\r\n\"place\": \"Sudirman Tower\",\r\n\"geograph_id\": 100,\r\n\"phone\": \"08561290092\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://run.mocky.io/v3/0cce623b-4158-470d-a908-4aff1101ece8",
+					"protocol": "https",
+					"host": [
+						"run",
+						"mocky",
+						"io"
+					],
+					"path": [
+						"v3",
+						"0cce623b-4158-470d-a908-4aff1101ece8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Created Response Unathorized",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"prefix\": \"PT\",\r\n\"name\": \"Sejahtera\",\r\n\"suffix\": \"Tbk\",\r\n\"industry_id\": \"1\",\r\n\"employee_size\": \"500\",\r\n\"street\": \"Jl.Sudirman kav. 21\",\r\n\"place\": \"Sudirman Tower\",\r\n\"geograph_id\": 100,\r\n\"phone\": \"08561290092\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://run.mocky.io/v3/0cce623b-4158-470d-a908-4aff1101ece8",
+					"protocol": "https",
+					"host": [
+						"run",
+						"mocky",
+						"io"
+					],
+					"path": [
+						"v3",
+						"0cce623b-4158-470d-a908-4aff1101ece8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Created Response Forbidden",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"prefix\": \"PT\",\r\n\"name\": \"Sejahtera\",\r\n\"suffix\": \"Tbk\",\r\n\"industry_id\": \"1\",\r\n\"employee_size\": \"500\",\r\n\"street\": \"Jl.Sudirman kav. 21\",\r\n\"place\": \"Sudirman Tower\",\r\n\"geograph_id\": 100,\r\n\"phone\": \"08561290092\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://run.mocky.io/v3/2b5d7bf9-51d9-4e7d-80b5-ad03aed1bf46",
+					"protocol": "https",
+					"host": [
+						"run",
+						"mocky",
+						"io"
+					],
+					"path": [
+						"v3",
+						"2b5d7bf9-51d9-4e7d-80b5-ad03aed1bf46"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Created Response Not Found",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"prefix\": \"PT\",\r\n\"name\": \"Sejahtera\",\r\n\"suffix\": \"Tbk\",\r\n\"industry_id\": \"1\",\r\n\"employee_size\": \"500\",\r\n\"street\": \"Jl.Sudirman kav. 21\",\r\n\"place\": \"Sudirman Tower\",\r\n\"geograph_id\": 100,\r\n\"phone\": \"08561290092\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://run.mocky.io/v3/4f68e1f5-11e8-4b67-9dc1-ae092f94ebd4",
+					"protocol": "https",
+					"host": [
+						"run",
+						"mocky",
+						"io"
+					],
+					"path": [
+						"v3",
+						"4f68e1f5-11e8-4b67-9dc1-ae092f94ebd4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Created Response Internal Server Error",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"prefix\": \"PT\",\r\n\"name\": \"Sejahtera\",\r\n\"suffix\": \"Tbk\",\r\n\"industry_id\": \"1\",\r\n\"employee_size\": \"500\",\r\n\"street\": \"Jl.Sudirman kav. 21\",\r\n\"place\": \"Sudirman Tower\",\r\n\"geograph_id\": 100,\r\n\"phone\": \"08561290092\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://run.mocky.io/v3/e8cf5ef7-3bb0-4ead-abce-8864587c70df",
+					"protocol": "https",
+					"host": [
+						"run",
+						"mocky",
+						"io"
+					],
+					"path": [
+						"v3",
+						"e8cf5ef7-3bb0-4ead-abce-8864587c70df"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Created Response Body",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n\"prefix\": \"PT\",\r\n\"name\": \"Sejahtera\",\r\n\"suffix\": \"Tbk\",\r\n\"industry_id\": \"1\",\r\n\"employee_size\": \"500\",\r\n\"street\": \"Jl.Sudirman kav. 21\",\r\n\"place\": \"Sudirman Tower\",\r\n\"geograph_id\": 100,\r\n\"phone\": \"08561290092\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://run.mocky.io/v3/40c04903-110d-4dda-ab2b-756f74c8c660",
+					"protocol": "https",
+					"host": [
+						"run",
+						"mocky",
+						"io"
+					],
+					"path": [
+						"v3",
+						"40c04903-110d-4dda-ab2b-756f74c8c660"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Data Response OK",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://run.mocky.io/v3/670f6a4c-d230-4c97-84bf-fb10f17cb6ed",
+					"protocol": "https",
+					"host": [
+						"run",
+						"mocky",
+						"io"
+					],
+					"path": [
+						"v3",
+						"670f6a4c-d230-4c97-84bf-fb10f17cb6ed"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
